@@ -19,9 +19,9 @@ import cv2
 TData = '**℃'
 HData = '**%'
 
-
+# 将 tornado.web.RequestHandler 替换成 BaseHandler
 class BaseHandler(tornado.web.RequestHandler):
-    #blog.csdn.net/moshowgame 解决跨域问题
+    # 解决跨域问题
     def set_default_headers(self):
         self.set_header('Access-Control-Allow-Origin', '*')
         self.set_header('Access-Control-Allow-Headers', '*')
