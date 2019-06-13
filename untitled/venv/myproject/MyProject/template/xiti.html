@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>习题练习</title>
+    <script src="../static/js/alluse.js" type="text/javascript"></script>
+    <script src="../static/js/common.js" type="text/javascript"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <!--<p>小提示：您可以吩咐我做下面的事哦~</p>-->
+    <!--<p class="left">小提示：您可以吩咐我做下面的事哦~</p>-->
+</div>
+<div>
+    <div class="xiti clearfix" style="display: none;">
+        <input id="answer" type="hidden" value=""/>
+        <p class="title" id="title1"></p>
+        <ul class="xiti_data">
+        </ul>
+    </div>
+
+    <div class="xiti_success clearfix" style="display: none;">
+        <p class="title">恭喜你回答正确</p>
+        <p class="tip">即将进入下一题</p>
+        <div class="box"></div>
+    </div>
+    <div class="xiti_error clearfix" style="display: none;">
+        <p class="title">这一题你答错了哦</p>
+        <p class="tip">再思考下吧，稍后可以获取正确答案<br/>即将进入下一题
+        </p>
+        <div class="box"></div>
+    </div>
+</div>
+
+</body>
+
+</html>
+<script type="text/javascript">
+    var startTime = Date.now();
+    var i = 0;
+    result_xiti = "";
+    var ans = new Array();
+    var rbotid = '';
+    var right_num = 0;
+    var wrong_num = 0;
+    $(document).ready(function () {
+        getId(function (robotId) {
+            rbotid = robotId;
+            $.ajax({
+                type: 'get',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                url: 'http://' + api_ip + '/api/funtion/operationsurveyask/{{operationId}}/',
+                contentType: "application/json",
+                success: function (result) {
+                    result_xiti_new = eval(result);
+                    result_xiti = result_xiti_new.data;
+                    show();
+                },
+                error: function (err) {
+                }
+            });
+        });
+        $(".back").click(function () {
+            var endTime = Date.now();
+            recodeTime(startTime, endTime);
+            $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/pepper/FUNCTION?menuId={{menuId}}');
+        });
+    });
+
+
+    function show() {
+        $(".xiti_success").hide();
+        $(".xiti_error").hide();
+        //todo:此处要优化页面数据为空时跳会首页的闪屏问题
+        // $(".xiti").show();
+        $(".xiti").hide();
+        var data = result_xiti['data'];
+        if (data.length > 0) {
+            if (data[i]) {
+                $("#content").show();
+                $(".xiti").show();
+                $("#title1").text(data[i]['title']);
+                // console.log(data[i].optionList);
+                add_answer(data[i].optionList);
+
+            } else {
+
+                var re = {
+                    "result": ans = ans.slice(0, result_xiti.data.length).join(','),
+                    "correctNum": right_num.toString(),//正确题目
+                    "allNum": (result_xiti.data.length).toString(),//所有题目
+                    "operationId": "{{operationId}}"
+                };
+                console.log(re);
+                $.ajax({
+                    type: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    url: 'http://' + api_ip + '/api/robot/' + rbotid + '/answer',
+                    data: JSON.stringify(re),
+                    contentType: "json",
+                    success: function (data) {
+                        window.location.replace("http://" + myself_ip + ":" + myself_port + "/problem_sol/answer?operationId={{operationId}}&menuId={{menuId}}");
+
+                    },
+                    error: function (err) {
+                    }
+                });
+            }
+        }
+        else {
+            var endTime = Date.now();
+            recodeTime(startTime, endTime);
+            window.location.replace("http://" + myself_ip + ":" + myself_port + '/pepper/FUNCTION?menuId={{menuId}}');
+        }
+    }
+
+    function add_answer(answer_list) {
+        for (var i = 0; i < answer_list.length; i++) {
+            var strhtml = '<li>\n' +
+                '                <span>' + (i + 1) + '</span>\n' +
+                '                <p id=i onclick="contrast(' + (i + 1) + ')">' + answer_list[i]['content'] + '</p>\n' +
+                '            </li>'
+            $(".xiti_data").append(strhtml);
+            if (answer_list[i]['answer'] == true) {
+                $("#answer").val(i);
+            }
+
+        }
+    }
+
+    function contrast(num) {
+
+        var answer = $("#answer").val();
+        if (answer == (num - 1)) {
+            setTimeout("show()", 5000);
+            $(".xiti_success").show();
+            $(".xiti").hide();
+            $(".xiti_error").hide();
+            i = i + 1;
+            right_num = right_num + 1;
+            sayRobotInfo('恭喜你，回答正确');
+            removeLi();
+            ans.push(1);
+        } else {
+            setTimeout("show()", 5000);
+            $(".xiti_success").hide();
+            $(".xiti").hide();
+            $(".xiti_error").show();
+            i = i + 1;
+            wrong_num = wrong_num + 1;
+            sayRobotInfo('回答错误，不要灰心继续加油！');
+            removeLi();
+            ans.push(0);
+        }
+    }
+
+    function sayRobotInfo(sayInfo) {
+        QiSession(function (session) {
+            console.log("connected!");
+            session.service("ALAnimatedSpeech").then(function (tts) {
+                tts.say(sayInfo);
+            }, function (error) {
+
+            });
+        }, function () {
+            console.log("disconnected");
+        }, myself_ip + ":80");
+    }
+
+    var ws = new WebSocket("ws://" + myself_ip + ":" + myself_port + "/chat");
+    ws.onmessage = function (e) {
+        var num = e.data;
+        try {
+            num = parseInt(num);
+        } catch (e) {
+            num = 1;
+        } finally {
+            if (num == 5) {
+                // sayRobotInfo('只能回答,1,2,3,4哦');
+                console.log('只能回答,1,2,3,4哦');
+            } else {
+                contrast(num);
+            }
+            // if(num!=5){
+            //     contrast(num);
+            // }
+        }
+    }
+
+    function sayRobotInfo(sayInfo) {
+        QiSession(function (session) {
+            console.log("connected!");
+            session.service("ALAnimatedSpeech").then(function (tts) {
+                tts.say(sayInfo);
+            }, function (error) {
+
+            });
+        }, function () {
+            console.log("disconnected");
+        }, myself_ip + ":80");
+        // }, "192.168.:80");
+    }
+
+    function removeLi() {
+        $('ul li').each(function () {
+            $(this).remove();
+        })
+    }
+
+    // 用于计算停留时间，将页面初始时间和结束时间记录到日志文件
+    function recodeTime(startTime, endTime) {
+        var da = {"pageName": ask, "endTime": endTime, 'startTime': startTime};
+        da = JSON.stringify(da);
+        $.get("http://" + myself_ip + ":" + myself_port + "/recordfile?data=" + encodeURI(da), function (data, status) {
+            console.log(data);
+        });
+    }
+
+
+</script>

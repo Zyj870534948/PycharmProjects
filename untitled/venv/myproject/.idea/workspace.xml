@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/db/service/page_opreate.py" line="37" />
+    <bookmark url="file://$PROJECT_DIR$/template/xiti.html" line="101" />
+    <bookmark url="file://$PROJECT_DIR$/control/handler_all.py" line="265" />
+    <bookmark url="file://$PROJECT_DIR$/template/zhujiaojieshao.html" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/template/jieshao.html" line="98" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e36fd3d-12e3-4214-b191-e22e9f2105df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/generate_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/generate_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/handler_activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/handler_activity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/handler_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/handler_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/handler_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/handler_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/handler_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/handler_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/handler_homePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/handler_homePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manger/config/global_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/manger/config/global_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manger/menuControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/manger/menuControl.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyProject$handler_all.coverage" NAME="handler_all Coverage Results" MODIFIED="1552548488932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/MyProject$menuControl.coverage" NAME="menuControl Coverage Results" MODIFIED="1554795076060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/manger" />
+    <SUITE FILE_PATH="coverage/MyProject$api_homePage.coverage" NAME="api_homePage Coverage Results" MODIFIED="1553236090374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/MyProject$api_intruduce.coverage" NAME="api_intruduce Coverage Results" MODIFIED="1546410620999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/MyProject$api_Intruduce.coverage" NAME="api_Intruduce Coverage Results" MODIFIED="1546408572897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1 [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="page: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1680799484">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="PKG-INFO" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="20" />
+          <entry key="js" value="3" />
+          <entry key="py" value="140" />
+          <entry key="sql" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="20" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="140" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="90" />
+          <entry key="html" value="796" />
+          <entry key="py" value="7321" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="796" />
+          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="Python" value="7321" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="-1301021946">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="25" />
+          <entry key="py" value="3356" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="25" />
+          <entry key="Python" value="3356" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="6" />
+          <entry key="page" value="1" />
+          <entry key="py" value="60" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="Python" value="60" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="1176274475">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="7" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="106" />
+          <entry key="html" value="8680" />
+          <entry key="js" value="904" />
+          <entry key="py" value="11903" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8680" />
+          <entry key="JavaScript" value="904" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="Python" value="11903" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="116" value="1" />
+          <entry key="220" value="1" />
+          <entry key="42" value="1" />
+          <entry key="47" value="1" />
+          <entry key="72" value="1" />
+          <entry key="85" value="1" />
+          <entry key="css" value="15" />
+          <entry key="html" value="416" />
+          <entry key="jpg" value="7" />
+          <entry key="js" value="25" />
+          <entry key="page" value="3" />
+          <entry key="png" value="49" />
+          <entry key="py" value="408" />
+          <entry key="sqlite_master" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="15" />
+          <entry key="Database Element" value="4" />
+          <entry key="HTML" value="416" />
+          <entry key="Image" value="56" />
+          <entry key="JavaScript" value="31" />
+          <entry key="Python" value="408" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyProject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="menuControl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manger/menuControl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler_all.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/control/handler_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1555">
+              <caret line="619" column="90" selection-start-line="619" selection-start-column="90" selection-end-line="620" selection-end-column="55" />
+              <folding>
+                <element signature="e#83#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_pepper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manger/function_pepper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler_function.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/handler_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler_homePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/handler_homePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listener.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/listener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler_id.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/handler_id.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_homePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/api_homePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalvar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manger/config/globalvar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>result</find>
+      <find>wrong_num</find>
+      <find>ans</find>
+      <find>contrast</find>
+      <find>xiti</find>
+      <find>daogou</find>
+      <find>body</find>
+      <find>height:</find>
+      <find>save_code</find>
+      <find>duida</find>
+      <find>31</find>
+      <find>head</find>
+      <find>back</find>
+      <find>2001</find>
+      <find>yule</find>
+      <find>voiceContent</find>
+      <find>material</find>
+      <find>add_div</find>
+      <find>data_all</find>
+      <find>zhujiaojies</find>
+      <find>zhujiaojieshao</find>
+      <find>sayRobotInfo</find>
+      <find>data_one</find>
+      <find>jieshao</find>
+      <find>console</find>
+      <find>QAlist</find>
+      <find>homePage</find>
+      <find>standby</find>
+      <find>flag_speech</find>
+      <find>myself_port</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>robotId</replace>
+      <replace>problem_sol</replace>
+      <replace>&quot;+link_ip+&quot;</replace>
+      <replace>my</replace>
+      <replace>mylink_port</replace>
+      <replace>mylink_ip_port</replace>
+      <replace>link_ip_port</replace>
+      <replace>robotTag</replace>
+      <replace>47.98.35.138</replace>
+      <replace>20001</replace>
+      <replace>192.168.3.7</replace>
+      <replace>192.168.1.109</replace>
+      <replace>192.168.43.209</replace>
+      <replace>myself</replace>
+      <replace>myself_ip</replace>
+      <replace>17</replace>
+      <replace>data_one</replace>
+      <replace>robot.nplusgroup.com</replace>
+      <replace />
+      <replace>#test#global flag_speech</replace>
+      <replace>global flag_speech</replace>
+      <replace>rolematerial</replace>
+      <replace>#global flag_speech\n            #flag_speech \= False</replace>
+      <replace>#global flag_speech\n        #flag_speech \= True</replace>
+      <replace>#flag_speech = False</replace>
+      <replace>/pepper/HOMEPAGE</replace>
+      <replace>/pepper/FUNCTION</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\gitlab\pepper-robot\MyProject\template</dir>
+      <dir>D:\gitlab\pepper-robot\MyProject\static\js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/template/daiji2.html" />
+        <option value="$PROJECT_DIR$/control/handler_download.py" />
+        <option value="$PROJECT_DIR$/control/api_openwebview.py" />
+        <option value="$PROJECT_DIR$/control/api_persioncenter.py" />
+        <option value="$PROJECT_DIR$/control/api_persionCenter.py" />
+        <option value="$PROJECT_DIR$/control/api_personalCenter.py" />
+        <option value="$PROJECT_DIR$/control/handler_chat.py" />
+        <option value="$PROJECT_DIR$/control/api_activityList.py" />
+        <option value="$PROJECT_DIR$/control/api_game.py" />
+        <option value="$PROJECT_DIR$/control/api_activity.py" />
+        <option value="$PROJECT_DIR$/template/result.html" />
+        <option value="$PROJECT_DIR$/template/xiti_1.html" />
+        <option value="$PROJECT_DIR$/control/api_standby.py" />
+        <option value="$PROJECT_DIR$/static/js/alluse.js" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/manger/config/test.py" />
+        <option value="$PROJECT_DIR$/manger/test.py" />
+        <option value="$PROJECT_DIR$/manger/config/api_standby.py" />
+        <option value="$PROJECT_DIR$/manger/function_pepper.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/template/jieshao.html" />
+        <option value="$PROJECT_DIR$/template/QAcontent.html" />
+        <option value="$PROJECT_DIR$/control/api_question.py" />
+        <option value="$PROJECT_DIR$/template/zhishidian-word.html" />
+        <option value="$PROJECT_DIR$/control/log.py" />
+        <option value="$PROJECT_DIR$/control/handler_activityList.py" />
+        <option value="$PROJECT_DIR$/control/handler_personalCenter.py" />
+        <option value="$PROJECT_DIR$/control/funcName.py" />
+        <option value="$PROJECT_DIR$/static/js/common.js" />
+        <option value="$PROJECT_DIR$/template/zhujiaojieshao.html" />
+        <option value="$PROJECT_DIR$/template/Function.html" />
+        <option value="$PROJECT_DIR$/template/QAlist.html" />
+        <option value="$PROJECT_DIR$/template/tupiansousuo.html" />
+        <option value="$PROJECT_DIR$/template/ActivityList.html" />
+        <option value="$PROJECT_DIR$/template/Activity.html" />
+        <option value="$PROJECT_DIR$/template/zhongyinghuyi.html" />
+        <option value="$PROJECT_DIR$/template/xiti.html" />
+        <option value="$PROJECT_DIR$/template/PersonalCenter.html" />
+        <option value="$PROJECT_DIR$/template/yule.html" />
+        <option value="$PROJECT_DIR$/template/HomePage.html" />
+        <option value="$PROJECT_DIR$/control/recordFileHandler.py" />
+        <option value="$PROJECT_DIR$/manger/menuControl.py" />
+        <option value="$PROJECT_DIR$/control/handler_data.py" />
+        <option value="$PROJECT_DIR$/manger/config/global_variables.py" />
+        <option value="$PROJECT_DIR$/control/api_homePage.py" />
+        <option value="$PROJECT_DIR$/control/handler_homePage.py" />
+        <option value="$PROJECT_DIR$/control/handler_function.py" />
+        <option value="$PROJECT_DIR$/control/generate_code.py" />
+        <option value="$PROJECT_DIR$/control/handler_activity.py" />
+        <option value="$PROJECT_DIR$/template/daiji1.html" />
+        <option value="$PROJECT_DIR$/control/handler_all.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitee\peep\MyProject1\static\images" />
+      <recent name="D:\gitee\peep\MyProject1\static\video" />
+      <recent name="D:\gitee\pepper_web\MyProject1\static\images" />
+      <recent name="D:\gitee\pepper_web\MyProject1\static\css" />
+      <recent name="D:\gitee\pepper_web\MyProject1\control\other" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitlab\pepper-robot\MyProject\control" />
+      <recent name="D:\gitlab\pepper-robot\MyProject\manger\config" />
+      <recent name="D:\gitlab\pepper-robot\MyProject\static\images" />
+      <recent name="D:\gitlab\pepper-robot\MyProject\template" />
+      <recent name="D:\gitlab\pepper-robot\MyProject\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.menuControl">
+    <configuration name="Activity.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyProject/template/Activity.html" />
+    <configuration name="zhujiao.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyProject/template/zhujiao.html" />
+    <configuration name="api_homePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/api_homePage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="handler_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/handler_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="menuControl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/manger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manger/menuControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Activity.html" />
+      <item itemvalue="Python.handler_all" />
+      <item itemvalue="Python.api_homePage" />
+      <item itemvalue="JavaScript Debug.zhujiao.html" />
+      <item itemvalue="Python.menuControl" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.menuControl" />
+        <item itemvalue="JavaScript Debug.zhujiao.html" />
+        <item itemvalue="Python.api_homePage" />
+        <item itemvalue="Python.handler_all" />
+        <item itemvalue="JavaScript Debug.Activity.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e36fd3d-12e3-4214-b191-e22e9f2105df" name="Default Changelist" comment="" />
+      <created>1533201072914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533201072914</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_test_peewee_py - 2018.08.03 at 11h 26m 16s.xml">
+      <configuration name="Nosetests in test_peewee.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_peewee_py - 2018.08.03 at 11h 26m 24s.xml">
+      <configuration name="Nosetests in test_peewee.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_insert_py - 2018.08.03 at 11h 27m 25s.xml">
+      <configuration name="Nosetests in test_insert.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_peewee_py - 2018.08.03 at 11h 28m 43s.xml">
+      <configuration name="Nosetests in test_peewee.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3281027" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5053619" side_tool="true" weight="0.19971469" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3281027" />
+      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.49463806" visible="true" weight="0.19971469" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33808845" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25677603" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.33951497" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.31065574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49643368" visible="true" weight="0.19034852" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.17895442" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.0024590164" />
+      <window_info id="Structure" order="1" sideWeight="0.5035663" side_tool="true" weight="0.22184986" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.38516405" />
+      <window_info id="Favorites" order="2" sideWeight="0.5035663" side_tool="true" weight="0.22184986" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.12553495" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32952926" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/template/tupiansousuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_xiaotieshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/funcName.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/generate_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_activityList.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_chat.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_standby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_water.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_zhibo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_grade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/transfer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/unzfile.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_activity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_activityList.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/face_detect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/touch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/zhujiao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/service/insert_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/recordFileHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/runsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/connect_pepper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/changeip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Activity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/alluse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3067">
+          <caret line="3016" column="4" selection-start-line="3016" selection-start-column="4" selection-end-line="3016" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/daogoupic.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/HomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_jieshao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_problem_analysis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_downloadurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_personalCenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/api_homePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/config/globalvar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_homePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/menuControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manger/function_pepper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/handler_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1555">
+          <caret line="619" column="90" selection-start-line="619" selection-start-column="90" selection-end-line="620" selection-end-column="55" />
+          <folding>
+            <element signature="e#83#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

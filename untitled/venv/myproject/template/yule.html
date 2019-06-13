@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>娱乐</title>
+    <script src="../static/js/alluse.js" type="text/javascript"></script>
+    <script src="../static/js/common.js" type="text/javascript"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <p>小提示：您可以吩咐我做下面的事哦~</p>
+</div>
+<div class="zhujiao clearfix" style="overflow:scroll;">
+    {% for j in gameData %}
+    <div class="box" id="{{j['fcode']}}" onclick="toClick(this)">
+        <img src="{{j['icon']}}">
+        <p>{{j['title']}}</p>
+    </div>
+    {% end %}
+</div>
+</body>
+
+</html>
+<script type="text/javascript">
+    var startTime = Date.now();
+    p_session = ""
+    $(document).ready(function () {
+        session();
+        $(".back").click(function () {
+            var endTime = Date.now();
+            recodeTime(startTime, endTime);
+            $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/pepper/FUNCTION?menuId={{menuId}}')
+        });
+    });
+
+    function toClick(obj) {
+        var id = $(obj).attr("id");
+        if (id == 'paizhao') {
+            startBeheavior('takephoto-d9c45c/behavior_1');
+        } else if (id == 'tiaowu') {
+            startBeheavior('dance1');
+        }
+        else if (id == 'dance1') {
+            startBeheavior('98kdance-c48261/behavior_1');
+        }
+        else if (id == 'dance2') {
+            startBeheavior('dance2');
+        }
+        else if (id == 'bangqiu') {
+            startBeheavior('bangqiu-4fc719/behavior_1');
+        }
+        else if (id == 'face') {
+            startBeheavior('test-115f38/behavior_1');
+        }
+        else if (id == 'hand') {
+            startBeheavior('handshake-aa1938/behavior_1');
+        } else if (id == 'smile') {
+            startBeheavior('main-6e9d8d/emotion');
+        } else if (id == 'jingli') {
+            startBeheavior('jingli-75c157/behavior_1');
+        }
+        var endTime = Date.now();
+        recodeTime(startTime, endTime);
+    }
+
+    function session() {
+        QiSession(function (session) {
+            p_session = session;
+        }, function () {
+            console.log("disconnected");
+        }, myself_ip + ":80");
+    }
+
+    function startBeheavior(behavior_name) {
+        p_session.service("ALBehaviorManager").then(function (tts) {
+            tts.startBehavior(behavior_name);
+        }, function (error) {
+
+        });
+    }
+
+    // 用于计算停留时间，将页面初始时间和结束时间记录到日志文件
+    function recodeTime(startTime, endTime) {
+        var da = {"pageName": yule, "endTime": endTime, 'startTime': startTime};
+        da = JSON.stringify(da);
+        $.get("http://" + myself_ip + ":" + myself_port + "/recordfile?data=" + encodeURI(da), function (data, status) {
+            console.log(data);
+        });
+    }
+
+
+</script>

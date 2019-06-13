@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>知识点</title>
+    <link href="../static/css/animate.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <script src="../static/js/alluse.js" type="text/javascript"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <p>小提示：您可以吩咐我做下面的事哦~</p>
+</div>
+<div class="zhishidian clearfix">
+    <div class="group" id="group">
+        {% for j in json %}
+        <div class="box" id="{{j['id']}}" onclick="toContent(this)">
+            <p>{{j['categoryName']}}</p>
+        </div>
+        {% end %}
+    </div>
+</div>
+<div class="foot">
+    <iframe src="chat/view" frameborder="0"></iframe>
+    <div class="dh"></div>
+</div>
+<script src="../static/js/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.zhishidian .box').each(function (i) {
+            let self = $(this);
+            self.height(self.width());
+            let a = (i % 4) + 1;
+            self.addClass('p' + a);
+            $('.zhishidian .box:even').addClass('even');
+            $('.zhishidian .box:odd').addClass('odd');
+        });
+    });
+</script>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".back").click(function () {
+            $(location).attr('href', 'http://'+myself_ip+":"+myself_port+'/func')
+        });
+    });
+
+    function toContent(obj) {
+        var id = $(obj).attr("id");
+        console.log(id);
+        $(location).attr('href', 'http://'+myself_ip+":"+myself_port+'/problem_sol?categoryId=' + id);
+    }
+
+    var group = document.getElementById('group');
+    var ele = group.getElementsByTagName('div');
+    for (var i = 0; i < ele.length; i++) {
+        var width = ele[i].getBoundingClientRect().width - 40;
+        ele[i].style.height = width + 'px';
+        var a = (i % 4) + 1;
+        if (i % 2) {
+            ele[i].className = 'box p' + a + ' odd';
+        } else {
+            ele[i].className = 'box p' + a + ' even';
+        }
+    }
+
+</script>

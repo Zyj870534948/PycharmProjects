@@ -1,0 +1,16 @@
+[W] 1555131349.161178 4015 qi.path.sdklayout: No Application was created, trying to deduce paths
+1.0
+[E] 1555131352.105619 4014 python: Traceback (most recent call last):
+  File "/data/home/nao/nplus/MyProject/manger/touch.py", line 37, in onTouched
+    requests.get(url=url)
+  File "/usr/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 375, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='192.168.3.71', port=8888): Max retries exceeded with url: /openwebview?name=standby (Caused by <class 'socket.error'>: [Errno 111] Connection refused)

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<viewport width=device-width initial-scale=1>
+<meta charset="utf-8">
+<title>(runoob.com)</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+// $(document).ready(function(){
+// 	$("b1").click(function(){
+// 		$.post("http://192.168.3.5:11111/savespot",{
+// 		    Spot:'{"A":[1.123123,3.1241241],"D":[0.123123,-2.1241241]}'
+// 		},
+// 		function(data,status){
+// 			alert("数据: \n" + data + "\n状态: " + status);
+// 		});
+// 	});
+// });
+var name = "A"
+var spot = [1.123412,2.1241124]
+
+var D = {}
+
+D[name] = spot
+name = "B"
+spot = [0.123412,-2.1241124]
+D[name] = spot
+name = "C"
+spot = [-1.123412,-2.1241124]
+D[name] = spot
+
+var s = JSON.stringify(D)
+function posthttp(url){
+		$.post(url,{
+		    Spot:s
+		},
+		function(data,status){
+		});
+	}
+
+function f() {
+    $.get("http://",function(data,status){
+			//[21.123,1231.12]
+            dict[a.value] = JSON.parse(data);
+
+		});
+}
+
+</script>
+</viewport>
+</head>
+<body>
+
+<button id="bt1" onclick="posthttp('http://192.168.3.5:11111/savespot?data=1')">发送一个 HTTP POST 请求页面并获取返回内容</button>
+<button id="bt2">发送一个 HTTP POST</button>
+
+</body>
+</html>

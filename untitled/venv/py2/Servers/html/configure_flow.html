@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>configure_flow</title>
+</head>
+<body>
+<div id="body" style="height:600px;width:800px;margin:0 auto;border: 3px solid #0000ff;">
+    <div id="list" style="height:600px;width:400px;float:left;">
+        <ul id="showlist"></ul>
+    </div>
+    <div id="control" style="height:600px;width:400px;float:left;">
+        <div id="spot" style="height:100px;width:400px;float:left;">
+            <select id="downlist1" name="select_name" style="width:100px" ></select>
+            <button id="use1" onclick="addlist('移动到','downlist1')">选择</button>
+        </div>
+        <div id="say" style="height:100px;width:400px;float:left;">
+            <select id="downlist2" name="select_name" style="width:100px" ></select>
+            <button id="use2" onclick="addlist('说','downlist2')">选择</button>
+        </div>
+        <div id="behavior" style="height:100px;width:400px;float:left;">
+            <select id="downlist3" name="select_name" style="width:100px" ></select>
+            <button id="use3" onclick="addlist('执行','downlist3')">选择</button>
+        </div>
+        <div id="change" style="height:100px;width:400px;float:left;">
+            <button id="run" onclick="clickstart('http://192.168.3.5:11111/starbehavior')">执行</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script type="text/javascript">
+    window.onload=function ()
+    {
+        getspot_get("http://192.168.3.5:11111/getspot?data=1",'downlist1')
+        getspot_get("http://192.168.3.5:11111/getspot?data=2",'downlist2')
+        getspot_get("http://192.168.3.5:11111/getspot?data=3",'downlist3')
+
+    }
+
+    function addtest()
+    {
+        var se = document.getElementById('dianlist');
+        var a = document.getElementById('text');
+        se.options.add(new Option(a.value));
+    }
+    function delit()
+    {
+        var myselect=document.getElementById("dianlist");
+        var index=myselect.selectedIndex ;
+        var se = document.getElementById('dianlist');
+        se.options.remove(index);
+    }
+
+     function gethttp(url)
+    {
+        var xmlhttp;
+        if (window.XMLHttpRequest)
+        {
+            // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            console.log(typeof xmlhttp.responseText);
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                return xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("GET",url,true);
+        xmlhttp.send();
+    }
+
+    function posthttp(url,text)
+    {
+      var xmlhttp;
+      if (window.XMLHttpRequest)
+      {
+        // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+        xmlhttp=new XMLHttpRequest();
+      }
+      else
+      {
+        // IE6, IE5 浏览器执行代码
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange=function()
+      {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+          return xmlhttp.responseText;
+        }
+      }
+      xmlhttp.open("POST",url,true);
+      xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      xmlhttp.send(text);
+    }
+
+    function getspot_get(url,listID) {
+        var xmlhttp;
+        if (window.XMLHttpRequest)
+        {
+            // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            console.log(typeof xmlhttp.responseText);
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                var datajs = xmlhttp.responseText;
+                console.log(datajs);
+                var datadic = JSON.parse(datajs);
+                var se = document.getElementById(listID);
+                for(var key in datadic)
+                {
+                    se.options.add(new Option(key));
+                }
+            }
+        }
+        xmlhttp.open("GET",url,true);
+        xmlhttp.send();
+    }
+
+    function addlist(behavior,listID) {
+        var ul=document.getElementById("showlist");
+        var lid = document.getElementById(listID);
+        var index=lid.selectedIndex ;
+        ul.innerHTML += '<li>' + behavior + ":" + lid.options[index].value + '</li>';
+    }
+    
+    function clickstart(url) {
+        var obj_lis = document.getElementById("showlist").getElementsByTagName("li");
+        var li = [];
+        var arr = "";
+        for(i=0;i<obj_lis.length;i++) {
+            arr =obj_lis[i].innerText.split(":")
+            if(arr[0]=="移动到"){
+                var dic = {};
+                dic["move"]=arr[1]
+                li.push(dic)
+            }
+            else if(arr[0]=="说"){
+                var dic = {};
+                dic["say"]=arr[1]
+                li.push(dic)
+            }
+            else if(arr[0]=="执行"){
+                var dic = {};
+                dic["do"]=arr[1]
+                li.push(dic)
+            }
+        }
+        arr = JSON.stringify(li)
+        posthttp(url,"behavior=" + arr)
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>信息搜索</title>
+    <script src="../static/js/alluse.js" type="text/javascript"></script>
+    <script src="../static/js/common.js" type="text/javascript"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <p>小提示：您可以吩咐我做下面的事哦~</p>
+</div>
+<div class="tpss">
+    <iframe id="frame" src="http://www.baidu.com/" frameborder="0 "></iframe>
+</div>
+<div class="foot">
+    <iframe src="chat/view" frameborder="0"></iframe>
+</div>
+</body>
+
+</html>
+<script type="text/javascript">
+    var startTime = Date.now();
+    $(document).ready(function () {
+        var ws = new WebSocket("ws://" + myself_ip + ":" + myself_port + "/chat");
+        ws.onmessage = function (e) {
+            var data = JSON.parse(e.data);
+            console.log(e.data);
+            if (data['url'] == "") {
+                console.log('haha');
+                var listen = data['listen'];
+                // sayRobotInfo("正在为您搜索" + listen + "信息，请稍等。");
+                var seach = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=" + listen + "&rsv_pq=8f52506e0003fcbf&rsv_t=9feeBPpUJGbAR%2FlxiVksSeS3MgutrA74zpoRIF2IIXIjdhGpYjiO3bYbXME&rqlang=cn&rsv_enter=1&rsv_sug3=10&rsv_sug1=9&rsv_sug7=100";
+                // var seach = "http://www.wxxqlib.com/NewWebpac/search.cfm?m=ss&k0=" + listen + "&t0=k&c0=and";
+                $('#frame').attr("src", seach);
+            }
+            else {
+                var listen = data['listen'];
+                var url = data['url'];
+                // sayRobotInfo("正在为您搜索" + listen + "信息，请稍等。");
+                $('#frame').attr("src", url);
+            }
+        }
+        $(".back").click(function () {
+            var endTime = Date.now();
+            recodeTime(startTime, endTime);
+            $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/func')
+        });
+    });
+
+    function sayRobotInfo(sayInfo) {
+        QiSession(function (session) {
+            console.log("connected!");
+            session.service("ALAnimatedSpeech").then(function (tts) {
+                tts.say(sayInfo);
+            }, function (error) {
+
+            });
+        }, function () {
+            console.log("disconnected");
+        }, myself_ip + ":80");
+    }
+
+
+    // 用于计算停留时间，将页面初始时间和结束时间记录到日志文件
+    function recodeTime(startTime, endTime) {
+        var da = {"pageName": search, "endTime": endTime, 'startTime': startTime};
+        da = JSON.stringify(da);
+        $.get("http://" + myself_ip + ":" + myself_port + "/recordfile?data=" + encodeURI(da), function (data, status) {
+            console.log(data);
+        });
+    }
+
+</script>

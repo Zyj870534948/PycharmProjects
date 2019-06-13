@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>对话</title>
+    <script src="../static/js/alluse.js" rel="stylesheet"></script>
+    <script src="../static/js/SQLFilter.js"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+    <style>
+        body {
+            /*background: transparent;*/
+        }
+    </style>
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <p>小提示：您可以吩咐我做下面的事哦~</p>
+</div>
+<div class="duida">
+
+</div>
+
+</body>
+
+</html>
+<script type="text/javascript">
+    var tt = "";
+    $(document).ready(function () {
+        $(".back").click(function () {
+            $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/pepper/QA?operationId={{operationId}}&menuId={{menuId}}');
+            tt.stopAll();
+        });
+    });
+
+    function getData() {
+        getId(function (robotId) {
+            console.log(api_ip);
+            var filter = '{"orderList":[],"sesl":[{"logicalOp":"and","sel":[{"logicalOp":"and","property":"status","matchMode":"=","value":["ON"],"ignoreCase":true}]}]}';
+            var sort = '[{"property":"createTime","direction":"asc"}]';
+            $.ajax({
+                type: 'get',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                url: 'http://' + api_ip + '/api/funtion/operationCustomMaterial/{{operationId}}/?filter=' + encodeURI(filter) + '&sort=' + encodeURI(sort),
+                // url: 'http://' + api_ip + '/api/robot/customMaterial/' + robotId + "?filter=" + encodeURI(filter)+"&sort="+encodeURI(sort),
+                contentType: "application/json",
+                success: function (result) {
+                    $.each(result.data.data, function (index, info) {
+                        if (index == "{{id}}") {
+                            var listen = info['question'];
+                            var speech = info['answer'];
+                            var html_listen = "<div class=\"right clearfix\"><div>" + listen + "</div></div>";
+                            var html_speech = "<div class=\"left clearfix\"><img src=\"../static/images/Bitmap.png\" class=\"tx\">\n<div>" + speech + "</div></div>";
+                            $('.duida').append(html_listen);
+                            $('.duida').append(html_speech);
+                            sayRobotInfo(speech);
+                        }
+                    });
+                },
+                error: function (err) {
+                    console.log('error')
+                }
+            });
+        });
+    }
+
+    getData();
+    var mTTS;
+
+    function sayRobotInfo(sayInfo) {
+        if (mTTS == null) {
+            QiSession(function (session) {
+                console.log("connected!");
+                session.service("ALTextToSpeech").then(function (tts) {
+                    tt = tts;
+                }, function (error) {
+
+                });
+                session.service("ALAnimatedSpeech").then(function (tts) {
+                    tts.say(sayInfo);
+                    mTTS = tts;
+                }, function (error) {
+
+                });
+
+                session.service("ALMemory").then(function (ALMemory) {
+                    ALMemory.subscriber("ALTextToSpeech/TextDone").then(function (subscriber) {
+                        subscriber.signal.connect(function (state) {
+                            if (state == 1) {
+                                $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/pepper/QA?operationId={{operationId}}&menuId={{menuId}}');
+                            }
+                        });
+                    });
+                });
+            }, function () {
+                console.log("disconnected");
+            }, myself_ip + ":80");
+        } else {
+            mTTS.say(sayInfo);
+        }
+    }
+</script>

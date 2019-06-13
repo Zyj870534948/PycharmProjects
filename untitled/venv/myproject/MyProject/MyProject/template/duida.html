@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>对话</title>
+     <script src="../static/js/alluse.js" rel="stylesheet"></script>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+    <style>
+        body {
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+<div class="duida">
+    <!--<div class="right clearfix"></div>-->
+    <!--<div class="left clearfix">-->
+
+    <!--</div>-->
+</div>
+</body>
+
+</html>
+<script type="text/javascript">
+    var ws = new WebSocket("ws://"+myself_ip+":"+myself_port+"/chat");
+    ws.onmessage = function (e) {
+        $('.duida').empty();
+        var data = JSON.parse(e.data);
+        var listen = data['listen'];
+        var speech = data['speech'];
+        var html_listen = "<div class=\"right clearfix\"><div>" + listen + "</div></div>";
+        var html_speech = "<div class=\"left clearfix\"><img src=\"../static/images/Bitmap.png\" class=\"tx\">\n<div>" + speech + "</div></div>";
+        $('.duida').append(html_listen);
+        $('.duida').append(html_speech);
+    }
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>娱乐</title>
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 1280) deviceWidth = 1280;
+        document.documentElement.style.fontSize = deviceWidth / 12.8 + 'px';
+        window.onresize = function () {
+            var deviceWidth = document.documentElement.clientWidth;
+            if (deviceWidth > 1280) deviceWidth = 1280;
+            document.documentElement.style.fontSize = deviceWidth / 12.8 + 'px';
+        };
+    </script>
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+<body>
+<div class="main grade">
+    <h1>打分器</h1>
+    <div class="grade-box">
+        <span>{{sw}}</span>
+        <span>{{gw}}</span>
+    </div>
+</div>
+</body>
+</html>

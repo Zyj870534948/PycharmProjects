@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+    function addtest()
+    {
+        var se = document.getElementById('dianlist');
+        var a = document.getElementById('text');
+        se.options.add(new Option(a.value));
+    }
+
+    function delit() {
+        var myselect=document.getElementById("dianlist");
+        var index=myselect.selectedIndex ;
+        var se = document.getElementById('dianlist');
+        se.options.remove(index);
+    }
+
+
+
+</script>
+
+<select id="dianlist" name="select_name" style="width:100px" ></select>
+<input type="text" name="fname" id="text"/>
+
+<button id="change" onclick="addtest()">change</button>
+<button id="delit" onclick="delit()">del</button>
+
+
+</body>
+</html>

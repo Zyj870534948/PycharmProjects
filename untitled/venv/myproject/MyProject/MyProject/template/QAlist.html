@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>自定义问答界面</title>
+    <script src="../static/js/alluse.js" type="text/javascript"></script>
+    <script src="../static/js/common.js" type="text/javascript"></script>
+    <style>
+        #all {
+            margin: 20px 20px;
+            width: calc(100% - 40px);
+            height: 684px;
+            overflow: scroll;
+
+        }
+
+        .writen {
+            margin-top: 15px;
+            color: rgba(255, 255, 255, 1);
+            font-size: 30px;
+            font-weight: 400;
+        }
+    </style>
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 1280;
+        var ua = navigator.userAgent;
+        if (/Android/.test(ua)) {
+            document.write('<meta name="viewport" content="width=1280, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+<div class="head">
+    <div class="back">退下</div>
+    <p>小提示：您可以吩咐我做下面的事哦~</p>
+</div>
+<div id="all"></div>
+</body>
+
+</html>
+<script type="text/javascript">
+    var jieguo = "";
+    var startTime = Date.now();
+    $(document).ready(function () {
+        getId(function (robotId) {
+            var filter = '{"orderList":[],"sesl":[{"logicalOp":"and","sel":[{"logicalOp":"and","property":"status","matchMode":"=","value":["ON"],"ignoreCase":true}]}]}';
+            var sort = '[{"property":"createTime","direction":"asc"}]';
+            $.ajax({
+                type: 'get',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                // url: 'http://' + api_ip + '/api/robot/customMaterial/' + robotId + "?filter=" + encodeURI(filter) + '&sort=' + encodeURI(sort),
+                url: 'http://' + api_ip + '/api/funtion/operationCustomMaterial/{{operationId}}/?filter=' + encodeURI(filter) + '&sort=' + encodeURI(sort),
+                contentType: "application/json",
+                success: function (result) {
+                    jieguo = result['data'].data;
+                    $.each(result.data.data, function (index, info) {
+                        var html = "<div class='writen' id=\"" + index + "\"" + " onclick=\"toClick(this)\">" + info["question"] + "</div>";
+                        $("#all").append(html);
+
+                    });
+                },
+                error: function (err) {
+                }
+            });
+        });
+        $(".back").click(function () {
+            var endTime = Date.now();
+            recodeTime(startTime, endTime);
+            $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/pepper/FUNCTION?menuId={{menuId}}')
+        });
+    });
+
+    function toClick(obj) {
+        var id = $(obj).attr("id");
+        var item = jieguo[id];
+        var endTime = Date.now();
+        recodeTime(startTime, endTime);
+        $(location).attr('href', 'http://' + myself_ip + ":" + myself_port + '/daogou/content?contentId=' + id + '&menuId={{menuId}}&operationId={{operationId}}');
+    }
+
+    function recodeTime(starTime, endTime) {
+        var da = {"pageName": qa, "endTime": endTime, 'startTime': starTime};
+        da = JSON.stringify(da);
+        $.get("http://" + myself_ip + ":" + myself_port + "/recordfile?data=" + encodeURI(da), function (data, status) {
+            console.log(data);
+        });
+    }
+</script>

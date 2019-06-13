@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="../static/js/vudio.js"></script>
+    <script>
+        var canvas = document.querySelector('#canvas')
+        navigator.mediaDevices.getUserMedia({
+         audio: true
+        }).then((stream) => {
+          // 调用Vudio
+          var vudio = new Vudio(stream, canvas, {
+            accuracy: 256,
+            width: 1024,
+            height: 200,
+            waveform: {
+              fadeSide: false,
+              maxHeight: 200,
+              verticalAlign: 'middle',
+              horizontalAlign: 'center',
+              color: '#2980b9'
+            }
+          })
+          vudio.dance()
+        }).catch((error) => {
+         console.error(error.name || error)
+        })
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
