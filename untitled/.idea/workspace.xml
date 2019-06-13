@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/venv/py2/pepper/speechgettext.py" line="142" />
+    <bookmark url="file://$PROJECT_DIR$/venv/myproject/control/handler_all.py" line="74" mnemonic="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d2b49e-225b-4128-95be-5f5f0cdb1eed" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,32 +14,118 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/untitled$all_data.coverage" NAME="all_data Coverage Results" MODIFIED="1551407419208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/excil" />
     <SUITE FILE_PATH="coverage/untitled$UnicastTransmission.coverage" NAME="UnicastTransmission Coverage Results" MODIFIED="1547113165308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
-    <SUITE FILE_PATH="coverage/untitled$k.coverage" NAME="k Coverage Results" MODIFIED="1550716383269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2" />
-    <SUITE FILE_PATH="coverage/untitled$PrintscreenSave.coverage" NAME="PrintscreenSave Coverage Results" MODIFIED="1550576626424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/ProcessPicture" />
-    <SUITE FILE_PATH="coverage/untitled$k__1_.coverage" NAME="k (1) Coverage Results" MODIFIED="1550736767587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$muchlinedownload.coverage" NAME="muchlinedownload Coverage Results" MODIFIED="1552984186120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$go.coverage" NAME="go Coverage Results" MODIFIED="1554367658493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TryPath/do" />
     <SUITE FILE_PATH="coverage/untitled$foundfaces.coverage" NAME="foundfaces Coverage Results" MODIFIED="1550812592748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
     <SUITE FILE_PATH="coverage/untitled$server.coverage" NAME="server Coverage Results" MODIFIED="1550560544091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/socket" />
-    <SUITE FILE_PATH="coverage/untitled$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1550567978444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/socket" />
-    <SUITE FILE_PATH="coverage/untitled$face__2.coverage" NAME="face++2 Coverage Results" MODIFIED="1550807237827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
-    <SUITE FILE_PATH="coverage/untitled$PasswordToStr.coverage" NAME="PasswordToStr Coverage Results" MODIFIED="1547108852396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
-    <SUITE FILE_PATH="coverage/untitled$WebControl__2_.coverage" NAME="WebControl (2) Coverage Results" MODIFIED="1547023862289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers" />
-    <SUITE FILE_PATH="coverage/untitled$LintenUDP.coverage" NAME="LintenUDP Coverage Results" MODIFIED="1547521354053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
-    <SUITE FILE_PATH="coverage/untitled$filepost.coverage" NAME="filepost Coverage Results" MODIFIED="1550814323257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/file/code" />
-    <SUITE FILE_PATH="coverage/untitled$showweb.coverage" NAME="showweb Coverage Results" MODIFIED="1547195895164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
-    <SUITE FILE_PATH="coverage/untitled$k2.coverage" NAME="k2 Coverage Results" MODIFIED="1547979928354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
-    <SUITE FILE_PATH="coverage/untitled$test.coverage" NAME="test Coverage Results" MODIFIED="1550655763031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py3" />
-    <SUITE FILE_PATH="coverage/untitled$AlittleWeb.coverage" NAME="AlittleWeb Coverage Results" MODIFIED="1549958542471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2" />
-    <SUITE FILE_PATH="coverage/untitled$face__.coverage" NAME="face++ Coverage Results" MODIFIED="1550812604707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
-    <SUITE FILE_PATH="coverage/untitled$WebHandler.coverage" NAME="WebHandler Coverage Results" MODIFIED="1550022255863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$generatepy.coverage" NAME="generatepy Coverage Results" MODIFIED="1553063758450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$LightControl.coverage" NAME="LightControl Coverage Results" MODIFIED="1554701243351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/3SiLight" />
+    <SUITE FILE_PATH="coverage/untitled$api_func.coverage" NAME="api_func Coverage Results" MODIFIED="1556008108539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/myproject/control" />
+    <SUITE FILE_PATH="coverage/untitled$guanbibendihua.coverage" NAME="guanbibendihua Coverage Results" MODIFIED="1551667437048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/text" />
+    <SUITE FILE_PATH="coverage/untitled$selfpath.coverage" NAME="selfpath Coverage Results" MODIFIED="1554366350482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TryPath" />
+    <SUITE FILE_PATH="coverage/untitled$downloadts.coverage" NAME="downloadts Coverage Results" MODIFIED="1552960004770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$AudioToString.coverage" NAME="AudioToString Coverage Results" MODIFIED="1554368764097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/AIUI" />
+    <SUITE FILE_PATH="coverage/untitled$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1552281596026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$readtxt.coverage" NAME="readtxt Coverage Results" MODIFIED="1554972768253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$closs.coverage" NAME="closs Coverage Results" MODIFIED="1555466403728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$say__1_.coverage" NAME="say (1) Coverage Results" MODIFIED="1553049973078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/speech" />
+    <SUITE FILE_PATH="coverage/untitled$usepy.coverage" NAME="usepy Coverage Results" MODIFIED="1554343702459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
     <SUITE FILE_PATH="coverage/untitled$client.coverage" NAME="client Coverage Results" MODIFIED="1550560546586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/socket" />
-    <SUITE FILE_PATH="coverage/untitled$PlayPPT.coverage" NAME="PlayPPT Coverage Results" MODIFIED="1550024054096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/pyfun/controlppt" />
-    <SUITE FILE_PATH="coverage/untitled$rtspread.coverage" NAME="rtspread Coverage Results" MODIFIED="1550627403033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/ProcessPicture" />
-    <SUITE FILE_PATH="coverage/untitled$WebControl__1_.coverage" NAME="WebControl (1) Coverage Results" MODIFIED="1550815412921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers" />
-    <SUITE FILE_PATH="coverage/untitled$AES_CBC128.coverage" NAME="AES_CBC128 Coverage Results" MODIFIED="1547444639260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1552552929043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$GettimeHandler.coverage" NAME="GettimeHandler Coverage Results" MODIFIED="1556012218180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$iat_python3_demo.coverage" NAME="iat_python3_demo Coverage Results" MODIFIED="1555212279746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/untitled$PlayPPT.coverage" NAME="PlayPPT Coverage Results" MODIFIED="1554858552777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Experiment" />
+    <SUITE FILE_PATH="coverage/untitled$magic.coverage" NAME="magic Coverage Results" MODIFIED="1552875112283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$ALcam.coverage" NAME="ALcam Coverage Results" MODIFIED="1551949206246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/AL" />
+    <SUITE FILE_PATH="coverage/untitled$FaceMatching.coverage" NAME="FaceMatching Coverage Results" MODIFIED="1556076196063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics" />
     <SUITE FILE_PATH="coverage/untitled$WebControl.coverage" NAME="WebControl Coverage Results" MODIFIED="1547015070107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/pyfun" />
     <SUITE FILE_PATH="coverage/untitled$GetIP.coverage" NAME="GetIP Coverage Results" MODIFIED="1547085088039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/RouteManatgement" />
+    <SUITE FILE_PATH="coverage/untitled$game__1_.coverage" NAME="game (1) Coverage Results" MODIFIED="1554704551885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/alpha-zero" />
+    <SUITE FILE_PATH="coverage/untitled$getvideo.coverage" NAME="getvideo Coverage Results" MODIFIED="1552887745021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$game__3_.coverage" NAME="game (3) Coverage Results" MODIFIED="1554705134785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py3/alpha-zero" />
+    <SUITE FILE_PATH="coverage/untitled$imageAdd.coverage" NAME="imageAdd Coverage Results" MODIFIED="1553578616925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI" />
+    <SUITE FILE_PATH="coverage/untitled$k__1_.coverage" NAME="k (1) Coverage Results" MODIFIED="1550736767587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$MapNavigation.coverage" NAME="MapNavigation Coverage Results" MODIFIED="1551667416911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/RobotNavigation" />
+    <SUITE FILE_PATH="coverage/untitled$PasswordToStr.coverage" NAME="PasswordToStr Coverage Results" MODIFIED="1547108852396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$GetPATH.coverage" NAME="GetPATH Coverage Results" MODIFIED="1554194285838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers" />
+    <SUITE FILE_PATH="coverage/untitled$getEnglishtext.coverage" NAME="getEnglishtext Coverage Results" MODIFIED="1555316323133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics" />
+    <SUITE FILE_PATH="coverage/untitled$filepost.coverage" NAME="filepost Coverage Results" MODIFIED="1551148344981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/file/code" />
+    <SUITE FILE_PATH="coverage/untitled$mergevideos.coverage" NAME="mergevideos Coverage Results" MODIFIED="1552900058869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$sayText.coverage" NAME="sayText Coverage Results" MODIFIED="1556087567468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$kaiqibendihua.coverage" NAME="kaiqibendihua Coverage Results" MODIFIED="1551667287038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/text" />
+    <SUITE FILE_PATH="coverage/untitled$selfpackage.coverage" NAME="selfpackage Coverage Results" MODIFIED="1554693024628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TryPath" />
+    <SUITE FILE_PATH="coverage/untitled$cvtest.coverage" NAME="cvtest Coverage Results" MODIFIED="1553151242090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$face_api.coverage" NAME="face_api Coverage Results" MODIFIED="1556075489868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/nijiajun" />
+    <SUITE FILE_PATH="coverage/untitled$start.coverage" NAME="start Coverage Results" MODIFIED="1551404838926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/RobotNavigation" />
+    <SUITE FILE_PATH="coverage/untitled$secondcontrol.coverage" NAME="secondcontrol Coverage Results" MODIFIED="1556589478815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/otherserver" />
+    <SUITE FILE_PATH="coverage/untitled$LookingForFaces.coverage" NAME="LookingForFaces Coverage Results" MODIFIED="1556275314426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking" />
+    <SUITE FILE_PATH="coverage/untitled$soungget.coverage" NAME="soungget Coverage Results" MODIFIED="1555207278434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$kill.coverage" NAME="kill Coverage Results" MODIFIED="1555040807131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/useyum" />
+    <SUITE FILE_PATH="coverage/untitled$WebControl__1_.coverage" NAME="WebControl (1) Coverage Results" MODIFIED="1556012772299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers" />
+    <SUITE FILE_PATH="coverage/untitled$AIUI.coverage" NAME="AIUI Coverage Results" MODIFIED="1556012778242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/KeDaXunFei" />
+    <SUITE FILE_PATH="coverage/untitled$guanbiditu.coverage" NAME="guanbiditu Coverage Results" MODIFIED="1551667440109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/text" />
+    <SUITE FILE_PATH="coverage/untitled$game.coverage" NAME="game Coverage Results" MODIFIED="1554704339212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/untitled$k.coverage" NAME="k Coverage Results" MODIFIED="1556592564250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$wuziqitornado.coverage" NAME="wuziqitornado Coverage Results" MODIFIED="1554948818556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Experiment/wuziqi" />
+    <SUITE FILE_PATH="coverage/untitled$face__2.coverage" NAME="face++2 Coverage Results" MODIFIED="1550807237827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
+    <SUITE FILE_PATH="coverage/untitled$LANYA.coverage" NAME="LANYA Coverage Results" MODIFIED="1552445778404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$Compareface.coverage" NAME="Compareface Coverage Results" MODIFIED="1550901492310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
+    <SUITE FILE_PATH="coverage/untitled$jiazaiditu.coverage" NAME="jiazaiditu Coverage Results" MODIFIED="1551667373080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/text" />
+    <SUITE FILE_PATH="coverage/untitled$showweb.coverage" NAME="showweb Coverage Results" MODIFIED="1554089974410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/web" />
+    <SUITE FILE_PATH="coverage/untitled$getChinesetext.coverage" NAME="getChinesetext Coverage Results" MODIFIED="1555314854131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics" />
+    <SUITE FILE_PATH="coverage/untitled$stopsay.coverage" NAME="stopsay Coverage Results" MODIFIED="1556344784676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/speech" />
+    <SUITE FILE_PATH="coverage/untitled$k2.coverage" NAME="k2 Coverage Results" MODIFIED="1547979928354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$face_tracker.coverage" NAME="face_tracker Coverage Results" MODIFIED="1554284022081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/face_tracker" />
+    <SUITE FILE_PATH="coverage/untitled$GetMap.coverage" NAME="GetMap Coverage Results" MODIFIED="1551320833624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/RobotNavigation" />
+    <SUITE FILE_PATH="coverage/untitled$AlittleWeb.coverage" NAME="AlittleWeb Coverage Results" MODIFIED="1553070107907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$WebHandler.coverage" NAME="WebHandler Coverage Results" MODIFIED="1556012764856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$SpotHandler.coverage" NAME="SpotHandler Coverage Results" MODIFIED="1553673888926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$daohang.coverage" NAME="daohang Coverage Results" MODIFIED="1551667305012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper/text" />
+    <SUITE FILE_PATH="coverage/untitled$imgtest.coverage" NAME="imgtest Coverage Results" MODIFIED="1554974059027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics" />
+    <SUITE FILE_PATH="coverage/untitled$speechgettext.coverage" NAME="speechgettext Coverage Results" MODIFIED="1555316551017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$sensors.coverage" NAME="sensors Coverage Results" MODIFIED="1555984654697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$open_http.coverage" NAME="open_http Coverage Results" MODIFIED="1550904534611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$Visual_Compass.coverage" NAME="Visual_Compass Coverage Results" MODIFIED="1551257223326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$rtspread.coverage" NAME="rtspread Coverage Results" MODIFIED="1550627403033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/ProcessPicture" />
+    <SUITE FILE_PATH="coverage/untitled$savewav.coverage" NAME="savewav Coverage Results" MODIFIED="1555041535788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/useyum" />
+    <SUITE FILE_PATH="coverage/untitled$rtasr_demo.coverage" NAME="rtasr_demo Coverage Results" MODIFIED="1555035459804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/python" />
+    <SUITE FILE_PATH="coverage/untitled$Localization_Tutorial.coverage" NAME="Localization_Tutorial Coverage Results" MODIFIED="1551233888994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$Behavior.coverage" NAME="Behavior Coverage Results" MODIFIED="1556250820618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$AES_CBC128.coverage" NAME="AES_CBC128 Coverage Results" MODIFIED="1547444639260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$tsvideo.coverage" NAME="tsvideo Coverage Results" MODIFIED="1552888147731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
     <SUITE FILE_PATH="coverage/untitled$EncryptionToken.coverage" NAME="EncryptionToken Coverage Results" MODIFIED="1547111923210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$getip.coverage" NAME="getip Coverage Results" MODIFIED="1555329142099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$PrintscreenSave.coverage" NAME="PrintscreenSave Coverage Results" MODIFIED="1550576626424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/ProcessPicture" />
+    <SUITE FILE_PATH="coverage/untitled$GetPATH__1_.coverage" NAME="GetPATH (1) Coverage Results" MODIFIED="1554194437270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$cpdo.coverage" NAME="cpdo Coverage Results" MODIFIED="1554367806552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TryPath" />
+    <SUITE FILE_PATH="coverage/untitled$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1550567978444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/socket" />
+    <SUITE FILE_PATH="coverage/untitled$tsvideo2.coverage" NAME="tsvideo2 Coverage Results" MODIFIED="1552892369126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$ppttornado.coverage" NAME="ppttornado Coverage Results" MODIFIED="1554965041414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Experiment" />
+    <SUITE FILE_PATH="coverage/untitled$WebControl__2_.coverage" NAME="WebControl (2) Coverage Results" MODIFIED="1547023862289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers" />
+    <SUITE FILE_PATH="coverage/untitled$gethttp.coverage" NAME="gethttp Coverage Results" MODIFIED="1552878849460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/PaChong" />
+    <SUITE FILE_PATH="coverage/untitled$SearchFace.coverage" NAME="SearchFace Coverage Results" MODIFIED="1556274601640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking" />
+    <SUITE FILE_PATH="coverage/untitled$LintenUDP.coverage" NAME="LintenUDP Coverage Results" MODIFIED="1547521354053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/XiaoMiGateway" />
+    <SUITE FILE_PATH="coverage/untitled$say.coverage" NAME="say Coverage Results" MODIFIED="1556085520775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$SimsimiEnglish.coverage" NAME="SimsimiEnglish Coverage Results" MODIFIED="1555316452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/SimSimi" />
+    <SUITE FILE_PATH="coverage/untitled$firstcontrol.coverage" NAME="firstcontrol Coverage Results" MODIFIED="1557045468022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/otherserver" />
+    <SUITE FILE_PATH="coverage/untitled$test.coverage" NAME="test Coverage Results" MODIFIED="1555058854090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics" />
+    <SUITE FILE_PATH="coverage/untitled$tryrunself.coverage" NAME="tryrunself Coverage Results" MODIFIED="1555316646499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/pepper" />
+    <SUITE FILE_PATH="coverage/untitled$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1551690225585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/MongoDB" />
+    <SUITE FILE_PATH="coverage/untitled$face__.coverage" NAME="face++ Coverage Results" MODIFIED="1550812604707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces" />
+    <SUITE FILE_PATH="coverage/untitled$tihuantext.coverage" NAME="tihuantext Coverage Results" MODIFIED="1553593939654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$game__2_.coverage" NAME="game (2) Coverage Results" MODIFIED="1554704653949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/torch-light-master/alpha-zero" />
+    <SUITE FILE_PATH="coverage/untitled$arecord.coverage" NAME="arecord Coverage Results" MODIFIED="1555040804879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/useyum" />
+    <SUITE FILE_PATH="coverage/untitled$Dialog.coverage" NAME="Dialog Coverage Results" MODIFIED="1555047635685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TuLing" />
+    <SUITE FILE_PATH="coverage/untitled$sayText__1_.coverage" NAME="sayText (1) Coverage Results" MODIFIED="1553569053506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/text" />
+    <SUITE FILE_PATH="coverage/untitled$face_fuse.coverage" NAME="face_fuse Coverage Results" MODIFIED="1553238156567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/faces/fuse" />
+    <SUITE FILE_PATH="coverage/untitled$socket.coverage" NAME="socket Coverage Results" MODIFIED="1553574237099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/Lib" />
+    <SUITE FILE_PATH="coverage/untitled$gettoken.coverage" NAME="gettoken Coverage Results" MODIFIED="1553503542265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py3/xiaomi" />
+    <SUITE FILE_PATH="coverage/untitled$BaseHandler.coverage" NAME="BaseHandler Coverage Results" MODIFIED="1553653414101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/Servers/WebHandler" />
+    <SUITE FILE_PATH="coverage/untitled$Trymovepackage.coverage" NAME="Trymovepackage Coverage Results" MODIFIED="1554366587143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/TryPath" />
+    <SUITE FILE_PATH="coverage/untitled$getpicture.coverage" NAME="getpicture Coverage Results" MODIFIED="1551346882202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/py2/homeassistant" />
+    <SUITE FILE_PATH="coverage/untitled$controLed.coverage" NAME="controLed Coverage Results" MODIFIED="1550832423017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/match/control" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,7 +138,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -56,49 +151,70 @@
       <file leaf-file-name="WebHandler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebHandler/WebHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2508">
-              <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+            <state relative-caret-position="3078">
+              <caret line="163" column="40" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebControl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebControl.py">
+      <file leaf-file-name="stopsay.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/pepper/speech/stopsay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainControl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py2/text/mainControl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+            <state relative-caret-position="418">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
               <folding>
-                <element signature="e#66#75#0" expanded="true" />
+                <element signature="e#90#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py3/test.py">
+      <file leaf-file-name="LookingForFaces.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/LookingForFaces.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filepost.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/py2/Servers/file/code/filepost.py">
+      <file leaf-file-name="SearchFace.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/SearchFace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="95">
+              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="29" />
               <folding>
-                <element signature="e#46#55#0" expanded="true" />
+                <element signature="e#89#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondcontrol.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/Servers/otherserver/secondcontrol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firstcontrol.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/py2/Servers/otherserver/firstcontrol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayPPT.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/Servers/file/code/PlayPPT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#46#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +223,8 @@
       <file leaf-file-name="k.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/py2/text/k.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="1919">
+              <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="67" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -116,35 +232,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foundfaces.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py2/faces/foundfaces.py">
+      <file leaf-file-name="Behavior.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/py2/pepper/Behavior.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="58" column="7" lean-forward="true" selection-start-line="14" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
-                <element signature="e#16#26#0" expanded="true" />
+                <element signature="e#90#115#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="face++.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py2/faces/face++.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="e#66#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rtspread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/py2/ProcessPicture/rtspread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -154,56 +249,107 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pyautogui</find>
+      <find>_input_latency</find>
+      <find>log1</find>
+      <find>.jpg</find>
+      <find>jpg</find>
+      <find>#</find>
+      <find>TData</find>
+      <find>p</find>
+      <find>pp</find>
+      <find>ppl</find>
+      <find>voice</find>
+      <find>WordRecognized</find>
+      <find>gl</find>
+      <find>JieshaoHandler</find>
+      <find>type</find>
+      <find>print</find>
+      <find>/xunfei</find>
+      <find>StandbyHandler</find>
+      <find>handler_all</find>
+      <find>changeFlag</find>
+      <find>queryDialogInfo</find>
+      <find>get_value</find>
+      <find>query</find>
+      <find>status</find>
+      <find>StopAllBehavior</find>
+      <find>HomePageHandler</find>
+      <find>Func_api</find>
+      <find>HomePage_api</find>
+      <find>on_listen</find>
+      <find>func</find>
+      <find>json</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\GitHub\PycharmProjects\untitled\venv\myproject</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/venv/py3/wlwcontrol.py" />
-        <option value="C:/pyfun/WebControl.py" />
-        <option value="$PROJECT_DIR$/venv/py2/Servers/WebHandler/__init__.py" />
-        <option value="$PROJECT_DIR$/venv/py2/RouteManatgement/GetIP.py" />
-        <option value="$PROJECT_DIR$/venv/py2/picturerwa/getpicturemsg.py" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/PasswordToStr.py" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/EncryptionToken.py" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/UnicastTransmission.py" />
-        <option value="$USER_HOME$/Desktop/001.html" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/showweb.py" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/AES_CBC128.py" />
-        <option value="E:/wpa_supplicant.conf" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/LintenUDP.py" />
-        <option value="$USER_HOME$/Desktop/sensor/mi_air_quality_monitor.py" />
-        <option value="$PROJECT_DIR$/venv/py3/hameassistat/helloword.py" />
-        <option value="$PROJECT_DIR$/venv/py3/hameassistat/hello_world.py" />
-        <option value="$USER_HOME$/Desktop/LclickPPT.py" />
-        <option value="C:/pyfun/controlppt/LclickPPT.py" />
-        <option value="C:/pyfun/controlppt/PlayPPT.py" />
-        <option value="$PROJECT_DIR$/venv/py2/XiaoMiGateway/k2.py" />
-        <option value="$PROJECT_DIR$/venv/py2/AlittleWeb.py" />
-        <option value="$PROJECT_DIR$/venv/py2/socket/server.py" />
-        <option value="$PROJECT_DIR$/venv/py2/socket/client.py" />
-        <option value="$PROJECT_DIR$/venv/py2/socket/client2.py" />
-        <option value="$PROJECT_DIR$/venv/py2/k.py" />
-        <option value="$PROJECT_DIR$/venv/py2/ProcessPicture/PrintscreenSave.py" />
-        <option value="$PROJECT_DIR$/venv/py2/ProcessPicture/rtspread.py" />
-        <option value="$PROJECT_DIR$/venv/py3/test.py" />
-        <option value="$PROJECT_DIR$/venv/py2/text.py" />
-        <option value="$USER_HOME$/AppData/Roaming/.homeassistant/scripts.yaml" />
-        <option value="$USER_HOME$/AppData/Roaming/.homeassistant/configuration.yaml" />
-        <option value="$PROJECT_DIR$/venv/py2/text/k.py" />
-        <option value="$PROJECT_DIR$/venv/py2/faces/foundfaces.py" />
-        <option value="$PROJECT_DIR$/venv/py2/faces/face++.py" />
-        <option value="$PROJECT_DIR$/venv/py2/faces/face++2.py" />
-        <option value="$PROJECT_DIR$/venv/py2/Servers/WebControl.py" />
-        <option value="$PROJECT_DIR$/venv/py2/Servers/file/code/filepost.py" />
+        <option value="$PROJECT_DIR$/venv/py2/htmlfun/wuziqipepper2/js/gobang.js" />
+        <option value="$PROJECT_DIR$/venv/py2/htmlfun/wuziqipepper2/index.html" />
+        <option value="$PROJECT_DIR$/venv/py2/htmlfun/wuziqipepper/index.html" />
+        <option value="$PROJECT_DIR$/venv/py2/htmlfun/wuziqipepper2/js/scrit.js" />
+        <option value="$PROJECT_DIR$/venv/py2/htmlfun/wuziqipepper/js/script.js" />
         <option value="$PROJECT_DIR$/venv/py2/Servers/WebHandler/WebHandler.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Experiment/wuziqi/html/index.html" />
+        <option value="$PROJECT_DIR$/venv/py2/Experiment/wuziqi/static/js/script.js" />
+        <option value="$PROJECT_DIR$/venv/py2/Experiment/wuziqi/wuziqitornado.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Experiment/ppttornado.py" />
+        <option value="$PROJECT_DIR$/venv/py2/text/readtxt.py" />
+        <option value="$PROJECT_DIR$/venv/py2/text/color.json" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/imgtest.py" />
+        <option value="$PROJECT_DIR$/venv/py2/useyum/arecord.py" />
+        <option value="$PROJECT_DIR$/venv/py2/useyum/kill.py" />
+        <option value="$PROJECT_DIR$/venv/py2/useyum/savewav.py" />
+        <option value="$PROJECT_DIR$/venv/py2/TuLing/Dialog.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/test.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/soungget.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/animal/getChinesetext.py" />
+        <option value="$USER_HOME$/Desktop/iat_python3_demo.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/soungget.py" />
+        <option value="$PROJECT_DIR$/venv/py2/SimSimi.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/getChinesetext.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/getEnglishtext.py" />
+        <option value="$PROJECT_DIR$/venv/py2/SimSimi/SimsimiEnglish.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/tryrunself.py" />
+        <option value="$PROJECT_DIR$/venv/py2/text/getip.py" />
+        <option value="$PROJECT_DIR$/venv/py2/AIUI/AudioToString.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/closs.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/speechgettext.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/sensors.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/WebHandler/BehaviorHandler.py" />
+        <option value="$PROJECT_DIR$/venv/myproject/control/api_homePage.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/WebControl.py" />
+        <option value="$PROJECT_DIR$/venv/py2/KeDaXunFei/AIUI.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/WebHandler/GettimeHandler.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/nijiajun/face_api.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/FaceMatching.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/say.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/sayText.py" />
+        <option value="$PROJECT_DIR$/venv/myproject/control/listener.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/speech/stopsay.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/otherserver/WebControl.py" />
+        <option value="$PROJECT_DIR$/venv/py2/pepper/Behavior.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/SearchFace.py" />
+        <option value="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/LookingForFaces.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/otherserver/firstcontrol.py" />
+        <option value="$PROJECT_DIR$/venv/py2/Servers/otherserver/secondcontrol.py" />
+        <option value="$USER_HOME$/Desktop/server.py" />
+        <option value="$PROJECT_DIR$/venv/py2/text/k.py" />
       </list>
     </option>
   </component>
@@ -217,7 +363,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -226,7 +372,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,45 +395,38 @@
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
               <item name="py2" type="462c0819:PsiDirectoryNode" />
-              <item name="Servers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="py2" type="462c0819:PsiDirectoryNode" />
-              <item name="Servers" type="462c0819:PsiDirectoryNode" />
-              <item name="WebHandler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="py2" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="pepper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/py2/Servers/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/venv/py2/Servers/static" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2\controlapp" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\Servers\otherserver" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\FaceTracking" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\nijiajun" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\semantics" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\Experiment\wuziqi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2\faces" />
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2\text" />
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2\Servers\listener" />
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2" />
-      <recent name="C:\Users\N-pod\PycharmProjects\untitled\venv\py2\XiaoMiGateway" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\FaceTracking" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\semantics" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\BaiDuAPI\nijiajun" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv" />
+      <recent name="D:\GitHub\PycharmProjects\untitled\venv\py2\Experiment\wuziqi\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,8 +441,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WebControl (1)">
-    <configuration name="WebControl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.firstcontrol">
+    <configuration name="LookingForFaces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,12 +450,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/Servers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/Servers/WebControl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/LookingForFaces.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +480,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="face++" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="firstcontrol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,18 +488,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/faces" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/Servers/otherserver" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/faces/face++.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/Servers/otherserver/firstcontrol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="face++2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="k" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,18 +507,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/faces" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/text" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/faces/face++2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/text/k.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="filepost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="secondcontrol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,18 +526,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/Servers/file/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/Servers/otherserver" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/Servers/file/code/filepost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/Servers/otherserver/secondcontrol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="foundfaces" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stopsay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -407,12 +545,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/faces" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/py2/pepper/speech" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/faces/foundfaces.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/py2/pepper/speech/stopsay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,19 +558,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.WebControl" />
-      <item itemvalue="Python.WebControl (1)" />
-      <item itemvalue="Python.filepost" />
-      <item itemvalue="Python.foundfaces" />
-      <item itemvalue="Python.face++" />
-      <item itemvalue="Python.face++2" />
+      <item itemvalue="Python.k" />
+      <item itemvalue="Python.LookingForFaces" />
+      <item itemvalue="Python.stopsay" />
+      <item itemvalue="Python.firstcontrol" />
+      <item itemvalue="Python.secondcontrol" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WebControl (1)" />
-        <item itemvalue="Python.filepost" />
-        <item itemvalue="Python.face++" />
-        <item itemvalue="Python.foundfaces" />
-        <item itemvalue="Python.face++2" />
+        <item itemvalue="Python.firstcontrol" />
+        <item itemvalue="Python.k" />
+        <item itemvalue="Python.secondcontrol" />
+        <item itemvalue="Python.stopsay" />
+        <item itemvalue="Python.LookingForFaces" />
       </list>
     </recent_temporary>
   </component>
@@ -449,30 +587,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24242425" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.33766234" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2344245" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32946146" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14166667" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2564935" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.08958333" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.09221748" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39718616" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32946146" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.3181818" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -484,280 +632,328 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/82dca840-1ac0-48a5-9a99-639625d5e18c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/sensor/mi_air_quality_monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/XiaoMiGateway/showweb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/XiaoMiGateway/AES_CBC128.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/XiaoMiGateway/LintenUDP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py3/hameassistat/helloword.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/.homeassistant/deps/Python37/site-packages/docutils/frontend.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://713a0316-d137-4d65-8814-e925136677b7/schema/main/table/devicerecord" />
-    <entry file="das://4f685694-f556-4d50-a041-5f7ca0ea6b0f/schema/main/table/devicerecord" />
-    <entry file="das://fa6955de-aeaf-4fde-bb5d-6d3c621b9f04/schema/main/table/devicerecord" />
-    <entry file="file://$PROJECT_DIR$/venv/py3/wlwcontrol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py3/hameassistat/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/LclickPPT.py" />
-    <entry file="file://C:/pyfun/controlppt/LclickPPT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/pyfun/controlppt/PlayPPT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/.homeassistant/deps/Python37/site-packages/haffmpeg/camera.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="107" column="75" selection-start-line="107" selection-start-column="75" selection-end-line="107" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/XiaoMiGateway/k2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/aiohttp/web_response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/AlittleWeb.py" />
-    <entry file="file://$PROJECT_DIR$/venv/py2/text/AlittleWeb.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/socket/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/onvif/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="392" selection-start-line="392" selection-end-line="392" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/ProcessPicture/PrintscreenSave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/ProcessPicture/video_1.jpg" />
-    <entry file="das://479bdb9d-d7ae-49b1-a280-f1dab20b9980/schema/main/table/devicerecord" />
-    <entry file="das://f28eb21e-d918-4dd6-8df9-bc3236e01383/schema/main/table/devicerecord">
+    <entry file="das://f4beb9ef-061f-466a-8938-e97dff1e0d41/schema/main/table/sqlite_master">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/socket/client2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+    <entry file="das://f4beb9ef-061f-466a-8938-e97dff1e0d41/schema/main/table/page">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/socket/client.py">
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebHandler/MicphoneHandler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebHandler/BehaviorHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="266">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/text/socketInfoHandler.py">
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="219">
+          <caret line="515" selection-start-line="515" selection-end-line="515" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/listener/listener.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/controlppt/LclickPPT.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/text.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/.homeassistant/scripts.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="645" selection-start-line="645" selection-end-line="645" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/tornado/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="219">
           <caret line="1589" selection-start-line="1589" selection-end-line="1589" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/.homeassistant/configuration.yaml">
+    <entry file="file://$PROJECT_DIR$/venv/myproject/template/Activity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="242" column="11" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
+        <state relative-caret-position="798">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/cut2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/cut.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/face1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/face2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/ProcessPicture/rtspread.py">
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebHandler/GettimeHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="380">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/face++.py">
+    <entry file="file://$PROJECT_DIR$/venv/myproject/control/handler_homePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/004.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/KeDaXunFei/AIUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/faces.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/003.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/towface.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/semantics/FaceMatching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/speechgettext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="123" column="43" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="43" />
+          <folding>
+            <element signature="e#267#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/say.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#66#75#0" expanded="true" />
-          </folding>
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/text/mainControl.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
-          <folding>
-            <element signature="e#66#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4940">
+          <caret line="260" column="8" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py3/test.py">
+    <entry file="file://$PROJECT_DIR$/venv/myproject/control/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myproject/control/funcName.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/face++2.py">
+    <entry file="file://$PROJECT_DIR$/venv/myproject/control/handler_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="2470">
+          <caret line="148" column="15" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
           <folding>
-            <element signature="e#66#76#0" expanded="true" />
+            <element signature="e#83#103#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myproject/manger/config/globalvar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myproject/manger/config/global_variables.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/speech/say.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/sayText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myproject/manger/menuControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myproject/control/api_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/nijiajun/face_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="34" selection-start-line="36" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/image1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/nijiajun/FV1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/nijiajun/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/http1connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/tcpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebControl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="1330">
+          <caret line="71" column="55" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/LookingForFaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/speech/stopsay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <element signature="e#90#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/py2/Servers/WebHandler/WebHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+        <state relative-caret-position="3078">
+          <caret line="163" column="40" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/faces/foundfaces.py">
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/file/code/LclickPPT.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/file/code/PlayPPT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="14" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="133">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#46#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/py2/text/k.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="1919">
+          <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="67" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/file/code/filepost.py">
+    <entry file="file://$PROJECT_DIR$/venv/py2/BaiDuAPI/FaceTracking/SearchFace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="95">
+          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#89#116#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/otherserver/secondcontrol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/pepper/Behavior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#90#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/py2/Servers/otherserver/firstcontrol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
         </state>
       </provider>
     </entry>

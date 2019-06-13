@@ -50,7 +50,15 @@ rep1 = requests.post(url="http://192.168.3.21:11111/getfile",data=filedata )
 # rep1 = requests.post(url="http://192.168.3.5:11111/controlppt",data=filedata )
 # print rep1
 
-# rep1 = requests.post('http://192.168.3.5:11111/photofaces')
-rep1 = requests.get('http://192.168.3.5:11111/faces')
-data = rep1.text
-print data
+rep1 = requests.post('http://192.168.3.5:11111/photofaces')
+# rep1 = requests.get('http://192.168.3.5:11111/faces')
+# data = rep1.text
+# data = json.loads(data)
+# print data,type(data)
+
+
+
+filedata ={"cmd":"Welcome",
+           "IP":"192.168.3.18"}
+filedata = json.dumps(filedata)
+rep1 = requests.post('http://192.168.3.5:11111/welcome',data=filedata)
